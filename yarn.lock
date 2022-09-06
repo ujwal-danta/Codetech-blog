@@ -1279,6 +1279,11 @@
   dependencies:
     "yallist" "^4.0.0"
 
+"marked@^4.1.0":
+  "integrity" "sha512-+Z6KDjSPa6/723PQYyc1axYZpYYpDnECDaU6hkaf5gqBieBkMKYReL5hteF2QizhlMbgbo8umXl/clZ67+GlsA=="
+  "resolved" "https://registry.npmjs.org/marked/-/marked-4.1.0.tgz"
+  "version" "4.1.0"
+
 "merge2@^1.3.0", "merge2@^1.4.1":
   "integrity" "sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg=="
   "resolved" "https://registry.npmjs.org/merge2/-/merge2-1.4.1.tgz"

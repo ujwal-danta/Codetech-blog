@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import CategoryLabel from './CategoryLabel'
 
 export default function Post({ post }) {
     return (
@@ -14,9 +15,9 @@ export default function Post({ post }) {
                 <span className="font-light text-gray-600">
                     {post.frontmatter.date}
                 </span>
-                <div>
+                <CategoryLabel>
                     {post.frontmatter.category}
-                </div>
+                </CategoryLabel>
             </div>
             <div className="mt-2">
                 <Link href={`/blog/${post.slug}`}>
