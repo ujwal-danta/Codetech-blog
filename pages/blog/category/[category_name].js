@@ -2,10 +2,8 @@ import Layout from "../../../components/Layout";
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
-import Link from 'next/link'
 import Post from "../../../components/Post";
 import CategoryList from "../../../components/CategoryList"
-import Pagination from "../../../components/Pagination"
 import { sortByDate } from '../../../utils'
 
 export default function CategoryBlogPage({ posts, categoryName, categories }) {
